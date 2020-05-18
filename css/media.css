@@ -1,0 +1,119 @@
+
+@media(max-width: 950px){
+    .Works__inner{
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .Works__item {
+        margin-bottom: 35px;
+        margin-right: 15px;
+        
+    }
+}
+
+@media(max-width: 915px){
+    .contant__inner {
+        
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: space-around;
+        margin-top: 40px;
+    }
+    .contant__item {
+        margin-right: 20px;
+    }
+    .contant__item-link {
+        margin-bottom: 35px;
+    }
+    .contant__item-text {
+        font-size: 18px;
+    }
+    .slider__item-text{
+        font-size: 20px;
+    }
+    .slider__item-text p {
+        font-size: 15px;
+    }
+    .contant__item-title{
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .Works__title{
+        font-size: 25px;
+    }
+    
+}
+@media(max-width: 880px){
+    .footer__item-AboutJetro {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .footer__item-contant{
+        font-size: 14px;
+    }
+
+}
+@media(max-width: 740px){
+   
+    .footer__item-link a{
+    padding-right: 10px;
+    }
+   
+
+}
+@media(max-width: 720px){
+    .header__menu-btn{
+        display: block;
+    }
+    .header__menu > ul {
+        display: none;
+        position: absolute;
+        z-index: 2;
+        top: 60px;
+        left: 0;
+        right: 0;
+        width: 100%;
+        background-color: #fff;
+    }
+    .header__menu li{
+        margin-bottom: 15px;
+        display: block;
+        text-align: center;
+        
+
+    }
+  
+
+}
+@media(max-width: 650px){
+    .thumbs{
+        display: none;
+    }
+ 
+
+}
+
+@media(max-width: 464px){
+    .slider__item-text{
+        margin-right: 5px;
+        width: auto;
+    }
+    .slick-prev{
+        left: 0;
+    }
+    .slick-next{
+        right: 14px;
+    }
+    
+}
+
+
+
+
+
+
+@media(min-width: 720px){
+    .header__menu > ul{
+        display: block !important;
+    }
+}
